@@ -4,7 +4,7 @@
 // - protoc             v4.25.3
 // source: checker.proto
 
-package checkerProto
+package checker
 
 import (
 	context "context"

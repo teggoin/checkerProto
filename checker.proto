@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/teggoin/checkerProto";
+option go_package = "github.com/teggoin/checkerProto/checker";
 
 message CheckBatchRequest {
   repeated string publicAddress = 1;

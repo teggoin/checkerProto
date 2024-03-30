@@ -1,4 +1,4 @@
-module checkerProto
+module github.com/teggoin/checkerProto
 
 go 1.22
 
