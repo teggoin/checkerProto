@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option go_package = "github.com/teggoin/checkerProto";
+
+message CheckBatchRequest {
+  repeated string publicAddress = 1;
+}
+
+message CheckBatchResponse {
+  repeated string foundPublicAddress = 1;
+}
+
+service Checker {
+  rpc CheckBatch(CheckBatchRequest) returns (CheckBatchResponse);
+}
